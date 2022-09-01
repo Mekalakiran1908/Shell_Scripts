@@ -1,0 +1,7 @@
+#! /bin/bash
+read -p "Enter number to check whether it is Even or Odd:" n
+if [ $[n%2] -eq 0 ];then
+echo "$n is Even Number"
+else
+echo "$n is Odd Number"
+fi
